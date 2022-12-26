@@ -15,7 +15,6 @@ public class Functions {
 
     private static String helloWorldReturnString() {
         String name = "Enzo";
-         TE VE
         return name;
     }
 
