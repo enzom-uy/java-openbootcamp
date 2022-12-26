@@ -40,4 +40,15 @@ public class Functions {
     static void helloWorldWithParams(String name) {
         System.out.println("Hello " + name);
     }
+
+    // METHOD OVERLOADING
+    // Method overloading is when we have two methods/functions with identical names, but different parameters.
+
+    private static void aMethod() {
+        System.out.println("Method without params.");
+    }
+
+    private static void aMethod(String name) {
+        System.out.println("Method with param(s): ", name);
+    }
 }
