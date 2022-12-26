@@ -22,8 +22,6 @@ public class Functions {
     private static void helloWorldWithParamsPrivate(String name) {
         System.out.println("Hello " + name);
     }
-
-
     // This function can be used outside the context of this class (Functions) and package (com.company).
     public static void helloWorldWithParamsPublic(String name) {
         System.out.println("Hello " + name);
@@ -41,6 +39,7 @@ public class Functions {
         System.out.println("Hello " + name);
     }
 
+
     // METHOD OVERLOADING
     // Method overloading is when we have two methods/functions with identical names, but different parameters.
 
@@ -49,6 +48,6 @@ public class Functions {
     }
 
     private static void aMethod(String name) {
-        System.out.println("Method with param(s): ", name);
+        System.out.println("Method with param(s): " + name);
     }
 }
